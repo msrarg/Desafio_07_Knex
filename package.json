@@ -1,0 +1,23 @@
+{
+  "name": "07-desafio",
+  "version": "1.0.0",
+  "description": "Ejecutar \"npm install\" para instalar las dependecias.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build_db.js && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1",
+    "sqlite3": "^5.0.8"
+  }
+}
